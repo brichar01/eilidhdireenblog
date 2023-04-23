@@ -8,6 +8,7 @@
     "gatsby"
   ],
   "scripts": {
+    "deploy": "gatsby build && aws s3 sync public/ s3://eilidhdireen.com",
     "develop": "gatsby develop",
     "start": "gatsby develop",
     "build": "gatsby build",
@@ -19,17 +20,26 @@
     "@emotion/react": "^11.10.6",
     "@emotion/styled": "^11.10.6",
     "@mdx-js/react": "^2.3.0",
+    "aws-sdk": "^2.1360.0",
     "gatsby": "^5.6.1",
     "gatsby-plugin-emotion": "^8.7.0",
     "gatsby-plugin-mdx": "^5.7.0",
     "gatsby-source-filesystem": "^5.7.0",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-burger-menu": "^3.0.9",
+    "react-dom": "^18.2.0",
+    "react-facebook-share-link": "^1.0.4",
+    "react-responsive-carousel": "^3.2.23",
+    "react-scroll": "^1.8.9",
+    "react-scrolling-color-background": "^1.0.2",
+    "react-social-icons": "^5.15.0",
+    "react-social-media-embed": "^2.3.5"
   },
   "devDependencies": {
     "@types/node": "^18.14.0",
     "@types/react": "^18.0.28",
     "@types/react-dom": "^18.0.11",
+    "@types/react-scroll": "^1.8.6",
     "typescript": "^4.9.5"
   }
 }
