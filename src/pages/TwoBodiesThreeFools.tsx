@@ -1,5 +1,6 @@
 import * as React from "react"
 import styled from '@emotion/styled'
+import introimage from "../images/TBTF.jpg"
 
 
 const Section = styled.div`
@@ -29,7 +30,7 @@ const TwoBodiesThreeFools = () => {
   return (
     <Section>
       <Image 
-        src="../../static/TBTF Ebook Cover web friendly.jpg" 
+        src={introimage}
         alt="Two Bodies÷Three Fools"
       />
       <Text>

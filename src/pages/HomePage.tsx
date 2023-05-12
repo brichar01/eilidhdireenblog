@@ -1,6 +1,7 @@
 import * as React from "react"
 import styled from '@emotion/styled'
 import { SocialIcon } from 'react-social-icons';
+import introimage from "../images/introimage.jpg"
 
 
 const Section = styled.div`
@@ -64,7 +65,7 @@ const HomePage = () => {
       into mischief with her friends, and listening to The Wiggles.</p>
       </Text>
       <Image 
-        src="../../static/intro-image.JPG" 
+        src={introimage}
         alt="Picture of me!"
       />
       

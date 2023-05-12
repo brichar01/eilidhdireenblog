@@ -1,5 +1,6 @@
 import * as React from "react"
 import styled from '@emotion/styled'
+import arcadiaCover from "../images/arcadiacover.jpg" 
 
 
 const Section = styled.div`
@@ -29,7 +30,7 @@ const Arcadia = () => {
   return (
     <Section>
       <Image 
-        src="../../static/arcadia-cover.jpg" 
+        src={arcadiaCover}
         alt="Arcadia cover"
       />
       <Text>

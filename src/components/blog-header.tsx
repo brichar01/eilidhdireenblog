@@ -1,7 +1,7 @@
 import * as React from "react"
 import styled from '@emotion/styled'
 import { Link, scroller } from "react-scroll"
-import '../../public/static/css/scrolllink.css'
+import '../static/css/scrolllink.css'
 
 
 const PageDiv = styled('div')`
